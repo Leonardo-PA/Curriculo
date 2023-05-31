@@ -1,0 +1,116 @@
+/* Definição de estilos gerais */
+.main_header_logo {
+  margin: 0 auto;
+  display: block;
+  justify-content: 0;
+  align-items: 0;
+  height: 100%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+/* Estilos específicos */
+
+/* Cabeçalho */
+.main_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  background-color: #333;
+  color: white;
+  padding: 0 20px;
+}
+
+.main_header img PATO.png {
+  height: 80px;
+}
+
+/* Navegação  area de inicio logo apos o logo da pagina */
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(152, 149, 149);
+  height: 50px;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+}
+
+nav a:hover {
+  background-color: #333;
+  color: white;
+}
+
+/* Seções, nessa parte contem a estilização da area do portifolio*/
+section {
+  margin: 40px;
+}
+
+section h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+section li {
+  margin: 10px 0;
+}
+
+/* Bloco de citação */
+#quote {
+  background-color: #606060;
+  padding: 20px;
+}
+
+#quote blockquote {
+  font-style: italic;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+#quote_cite {
+  display: arial;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+/* Experiência de trabalho */
+#job-exp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.job-exp__expirience {
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 20px 0;
+  max-width: 600px;
+}
+
+.job-exp__company-logo {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+  object-fit: contain;
+}
+
+.job-exp__jobs {
+  background-color: #ddd;
+  padding: 20px;
+  margin: 20px 0;
+  max-width: 600px;
+}
